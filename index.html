@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+
+    <!-- Required meta tags -- Adding these two lines from bootstrap doc-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container d-flex align-items-center h-100"> <!-- this is bootstrap grid and indented the following h1, hr and button tags--> 
+      <!-- flex (d-flex:activating flex boxsystem);(align-item-center:placing things vertically in center);h-100(fixing height to 100, means making full leangth of the page) -->
+      <div class="row"><!-- putting the below in a row -->
+        <header class="text-center col-12"><!-- making the text center using header element & expanding the width(col-12)-->
+          <h1 class="text-uppercase"> <!--added css bootstrap for uppercase-->
+            <strong>the biggest startup event of the year</strong>
+          </h1> 
+        </header>
+        <div class="buffer col-12"></div><!-- it will be b/n the header,horizontal line, and the button; (col-12) to cover entire area -->
+        <section class="text-center col-12"><!-- to make the line and text center & expanding the width(col-12)-->
+          <hr>
+          <a href="https://mailchi.mp/b6b5a09f6a76/ztmstudents">
+            <button class="btn btn-primary btn-xl">Find out more</button> <!--used css bootstrap here (from bootstrap site)-->
+          <!--also added bootstrap for to increase button size(btn-xl), but it didn't effect anything so created a .btn class in style.css file-->
+        </a>
+      </section>
+      </div>
+    </div>
+  </body>
+</html>
